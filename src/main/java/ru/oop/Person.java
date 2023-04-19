@@ -19,9 +19,7 @@ public interface Person {
     void setPosition(Position position);
 
     /**
-     * Пройти до указанного места из текущего местопложения
-     *
-     * @param destination место назначения
+     * Пройти до указанного места из текущего местоположение
      */
     void walk(Position destination);
 }
